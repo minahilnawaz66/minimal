@@ -2,6 +2,8 @@
 Install npm dependencies for development.
 npm install OR npm i
 
+To run : npm run sass:dev
+
 Basic npm commands to update package file or create new one.
 npm init
 npm update
