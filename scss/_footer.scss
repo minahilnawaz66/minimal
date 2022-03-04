@@ -1,0 +1,33 @@
+// Footer SCSS
+#footer {
+	padding: 0 30px;
+
+	.links {
+		border-top: 5px solid $primary;
+		flex: 0 0 25%;
+		padding-top: 15px;
+
+		a {
+			padding: 0 5px;
+			text-decoration: none;
+
+			@media (max-width: 1024px) {
+				padding: 0;
+			}
+		}
+	}
+
+	.copyright-text {
+		border-top: 5px solid $primary;
+		flex: 0 0 72%;
+		margin-left: 25px;
+
+		@media (max-width: 768px) {
+			margin-left: 0;
+		}
+
+		p {
+			float: right;
+		}
+	}
+}
